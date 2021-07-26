@@ -1,0 +1,102 @@
+
+ @font-face { font-family: HWTArtz; src: url('fonts/HWTArtz.woff'); } 
+ @font-face { font-family: GothamRounded-Medium; src: url('fonts/GothamRounded-Medium.woff'); }
+*{
+
+margin:0;
+padding:0;
+
+}
+
+body{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+
+}
+
+.content-aref{
+
+	height: 600px;
+	width: 300px;
+	
+	 background-image: url("images/FED Exercise 300x600-01.png");
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: cover;
+	
+ 
+}
+
+.content-product{
+	height: 600px;
+	width: 300px;
+
+	 background-image: url("images/product-bg.png");
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: cover;
+	position: absolute;
+
+	top:100%;
+
+}
+
+
+
+
+
+.headline-aref{
+
+	padding-top: 400px;
+	font-size: 45px;
+	line-height: 50px;
+	text-transform: capitalize;
+	color: #ffffff;
+	font-family: HWTArtz;
+	transform: rotate(-10deg);
+	
+
+}
+
+
+.headline-product{
+
+	padding-top: 40px;
+	padding-left: 50px;
+	font-size: 38px;
+	line-height: 50px;
+	text-transform: capitalize;
+	color: #ffffff;
+	font-family: HWTArtz;
+	transform: rotate(-12deg);
+	
+}
+
+.product-img{
+
+	
+	position: absolute;
+	top: 5%;
+	left: 5%;
+
+}
+.product-btn{
+
+	position: absolute;
+	top: 87%;
+	left: 30%;
+
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: solid 1px #ff6666;
+	background-color:#ffd24d;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 15px;
+	font-family: GothamRounded-Medium;
+	
+}
+
