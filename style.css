@@ -31,9 +31,8 @@ body{
 }
 
 .content-product{
-	height: 600px;
-	width: 300px;
-
+	 height: 600px;
+	 width: 300px;
 	 background-image: url("images/Product-bg.png");
 	 background-repeat: no-repeat;
 	 background-position: center;
@@ -62,16 +61,35 @@ body{
 }
 
 
-.headline-product{
+.headline-product-first{
 
-	padding-top: 40px;
-	padding-left: 50px;
+	
 	font-size: 38px;
 	line-height: 50px;
 	text-transform: capitalize;
 	color: #ffffff;
 	font-family: HWTArtz;
 	transform: rotate(-12deg);
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	
+}
+
+
+.headline-product-second{
+
+
+	font-size: 38px;
+	line-height: 50px;
+	text-transform: capitalize;
+	color: #ffffff;
+	font-family: HWTArtz;
+	transform: rotate(-12deg);
+	position: absolute;
+	top: 5%;
+	left: 20%;
+
 	
 }
 
